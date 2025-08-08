@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 3em;
+  transition: all 0.2s ease;
+}
+p {
+  font-size: 1.2em;
+  transition: all 0.2s ease;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.emoji {
+  position: absolute;
+  font-size: 2em;
+  animation: float 3s linear infinite;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100vh); opacity: 0; }
+}
